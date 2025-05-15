@@ -5,7 +5,7 @@
 - Created a Resource Group `RG-AD-Lab`
 - Created a Virtual Network `VNet-ADLab` with subnet `Subnet-ADLab`
 
-![Resource Group and VNet](./screenshots/rg-vnet.png)
+![Resource Group and VNet](../screenshots/rg-vnet.png)
 
 ---
 
