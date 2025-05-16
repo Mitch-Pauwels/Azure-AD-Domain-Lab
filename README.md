@@ -35,10 +35,10 @@ In enterprise IT, Active Directory and Group Policy are foundational for managin
 
 ### 📂 Project Structure
 
-- [1. Azure Setup (Resource Group, VNet, VMs)](./1-azure-setup.md)
-- [2. Domain Controller Configuration (AD DS + AD CS)](./2-dc01-setup.md)
-- [3. Organizational Units, Users & Groups](./3-ou-users-groups.md)
-- [4. File Shares & NTFS Permissions](./4-file-shares.md)
-- [5. Group Policy Drive Mapping](./5-gpo-drive-mapping.md)
-- [6. Client Domain Join & RDP Configuration](./6-client-join-domain.md)
-- [7. Validation & Functional Testing](./7-validation.md)
+- [1. Azure Setup (Resource Group, VNet, VMs)](./01-azure-vm-setup.md)
+- [2. Domain Controller Configuration (AD DS + AD CS)](./02-domain-controller-setup.md)
+- [3. Organizational Units, Users & Groups](./03-active-directory-structure.md)
+- [4. File Shares & NTFS Permissions](./04-file-shares.md)
+- [5. Group Policy Drive Mapping](./05-group-policy.md)
+- [6. Client Domain Join & RDP Configuration](./06-client-setup.md)
+- [7. Summary](./07-summary.md)

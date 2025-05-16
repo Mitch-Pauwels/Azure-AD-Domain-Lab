@@ -25,8 +25,8 @@ This phase documents the deployment of core Azure infrastructure components, inc
 - Name: `LognPacificLab-RG`
 - Region: e.g., [Europe] UK West
 
-![Resource Group](./screenshots/01-azure/resource-group/RG-Step-02.png)
 ![Resource Group](./screenshots/01-azure/resource-group/RG-Step-01.png)
+![Resource Group](./screenshots/01-azure/resource-group/RG-Step-02.png)
 ![Resource Group](./screenshots/01-azure/resource-group/RG-Step-03.png)
 ![Resource Group](./screenshots/01-azure/resource-group/RG-Step-04.png)
 
