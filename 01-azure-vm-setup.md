@@ -23,17 +23,22 @@ This phase documents the deployment of core Azure infrastructure components, inc
 ## 🚀 Implementation Steps
 ### 1. Create Resource Group
 - Name: `LognPacificLab-RG`
-- Region: e.g., West Europe
-### Setup Walkthrough
-![[Resource Group](./screenshots/resource-group/small/RG-Step-01.png)](./screenshots/resource-group/RG-Step-01.png)
-![Resource Group](./screenshots/resource-group/RG-Step-02.png)
-![Resource Group](./screenshots/resource-group/RG-Step-03.png)
-![Resource Group](./screenshots/resource-group/RG-Step-04.png)
+- Region: e.g., [Europe] UK West
+
+![Resource Group](./screenshots/01-azure/resource-group/RG-Step-02.png)
+![Resource Group](./screenshots/01-azure/resource-group/RG-Step-01.png)
+![Resource Group](./screenshots/01-azure/resource-group/RG-Step-03.png)
+![Resource Group](./screenshots/01-azure/resource-group/RG-Step-04.png)
 
 ### 2. Create Virtual Network
 - Name: `LognPacific-VNet`
 - Subnet Name: `default` (or custom if needed)
 - Address space: e.g., `10.0.0.0/16`
+
+![Virtual Network](./screenshots/01-azure/virtual-network/VN-Step-05.png)
+![Virtual Network](./screenshots/01-azure/virtual-network/VN-Step-06.png)
+![Virtual Network](./screenshots/01-azure/virtual-network/VN-Step-07.png)
+![Virtual Network](./screenshots/01-azure/virtual-network/VN-Step-08.png)
 
 ### 3. Create Virtual Machines
 #### DC01 (Domain Controller)
@@ -42,18 +47,20 @@ This phase documents the deployment of core Azure infrastructure components, inc
 - Inbound port: RDP (3389)
 - Private IP: Make static
 
+![Virtual Machine](./screenshots/01-azure/virtual-machines/Step-10.png)
+![Virtual Machine](./screenshots/01-azure/virtual-machines/Step-11.png)
+![Virtual Machine](./screenshots/01-azure/virtual-machines/Step-12.png)
+![Virtual Machine](./screenshots/01-azure/virtual-machines/Step-13.png)
+![Virtual Machine](./screenshots/01-azure/virtual-machines/Step-14.png)
+![Virtual Machine](./screenshots/01-azure/virtual-machines/Step-15.png)
+
+
 #### Client01 (Workstation)
 - OS: Windows 10/11
 - NIC: Assign to same VNet and subnet
 - Inbound port: RDP (3389)
 
----
-
-## 📸 Screenshots
-- `![Resource Group and VNet](./screenshots/Resource Group and VNet overview.png)`
-- `![VM Overview](./screenshots/VM Overview.png)`
-- `![DC01 Configuration](./screenshots/DC01 Configuration.png)`
-- `![Client01 Configuration](./screenshots/Client01 Configuration.png)`
+#### Repeat the same steps for Client01 (Workstation) but with Windows 10 as OS
 
 ---
 
