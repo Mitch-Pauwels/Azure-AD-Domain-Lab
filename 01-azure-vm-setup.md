@@ -25,10 +25,10 @@ This phase documents the deployment of core Azure infrastructure components, inc
 - Name: `LognPacificLab-RG`
 - Region: e.g., West Europe
 ### Setup Walkthrough
-![[Resource Group](./screenshots/resource-group/small/RG-Step-01.png)](./screenshots\resource-group/RG-Step-01.png)
-![Resource Group](./screenshots\resource-group/RG-Step-02.png)
-![Resource Group](./screenshots\resource-group/RG-Step-03.png)
-![Resource Group](./screenshots\resource-group/RG-Step-04.png)
+![[Resource Group](./screenshots/resource-group/small/RG-Step-01.png)](./screenshots/resource-group/RG-Step-01.png)
+![Resource Group](./screenshots/resource-group/RG-Step-02.png)
+![Resource Group](./screenshots/resource-group/RG-Step-03.png)
+![Resource Group](./screenshots/resource-group/RG-Step-04.png)
 
 ### 2. Create Virtual Network
 - Name: `LognPacific-VNet`
