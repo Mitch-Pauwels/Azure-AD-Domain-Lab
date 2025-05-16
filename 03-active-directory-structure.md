@@ -12,19 +12,15 @@ In this section, we configure the logical structure of our Active Directory (AD)
 ## 💻 Environment Used
 
 - Azure-based domain controller (DC01)
-- Resource group: `ADLab-RG`
+- Resource group: `lognpacific-RG`
 - Domain: `lognpacific.local`
 
 ## 📂 Structure Overview
 
 We created the following OU structure:
 
-lognpacific.local
-├── Groups
-├── IT
-│ └── Administrators
-├── Engineering
-├── Management
+> ![OU Structure](./screenshots/OU%20&%20Group%20Structure/OU%20Structure.png)  
+> *Organizational Unit layout in Active Directory*
 
 
 ## 👥 Users and Groups
@@ -53,10 +49,4 @@ lognpacific.local
 - Default user and group objects were moved from the default `Users` container into the relevant new OUs.
 - Groups were moved under the `Groups` OU.
 
-## 🖼️ Screenshots
-
-> ![OU Structure](./screenshots/OU-Structure.png)  
-> *Organizational Unit layout in Active Directory*
-
-> ![Users and Groups](./screenshots/Users-Groups.png)  
-> *Created users and group memberships*
+![OU Structure](./screenshots/OU%20&%20Group%20Structure/Step-05.png)
