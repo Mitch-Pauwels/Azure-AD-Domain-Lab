@@ -2,7 +2,8 @@
 
 ### Step 1: Resource Group & Virtual Network
 
-- Created a Resource Group `RG-AD-Lab`
+- Created a Resource Group `LognPacific-RG`
+![Resource Group](../screenshots/lognpacific-rg.png)
 - Created a Virtual Network `VNet-ADLab` with subnet `Subnet-ADLab`
 
 ![Resource Group and VNet](../screenshots/rg-vnet.png)
@@ -16,7 +17,7 @@
 - Static Private IP assigned
 - Installed Active Directory Domain Services role and promoted to domain controller
 
-![Screenshot placeholder: DC01 VM settings and static IP]
+![Screenshot DC01 VM](../screenshots/dc01-vm.png)
 
 ---
 

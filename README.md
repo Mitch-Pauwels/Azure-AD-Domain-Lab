@@ -1,34 +1,17 @@
-# Azure Active Directory Domain Services (AD DS) Lab Project
+# Azure-Based Active Directory Lab
 
-This project demonstrates setting up a production-style Active Directory Domain Services (AD DS) environment within Microsoft Azure, including:
+This project demonstrates how to set up a fully functional Active Directory environment in Microsoft Azure — including user/group management, file shares, Group Policies, and drive mappings — with real-world enterprise structure.
 
-- Deploying a Domain Controller (DC) and client Windows 10 VM
-- Configuring DNS and static IP for the DC
-- Creating Organizational Units (OUs), users, and groups
-- Setting up file shares with NTFS and share permissions
-- Applying Group Policy Objects (GPOs) for mapped network drives and access controls
-- Connecting domain-joined clients and testing access and remote desktop
+## Documentation
 
----
+- [1. Azure Setup (RG, VNet, VMs)](./1-azure-setup.md)
+- [2. Domain Controller Setup (AD DS + AD CS)](./2-dc01-setup.md)
+- [3. Organizational Units, Users & Groups](./3-ou-users-groups.md)
+- [4. File Shares & NTFS Permissions](./4-file-shares.md)
+- [5. Group Policy Drive Mapping](./5-gpo-drive-mapping.md)
+- [6. Client Join & RDP Configuration](./6-client-join-domain.md)
+- [7. Validation & Testing](./7-validation.md)
 
-## Table of Contents
+## Author
 
-- [Project Setup](./documentation/project-setup.md)
-- [Active Directory Domain Services Configuration](./documentation/ad-ds-configuration.md)
-- [Organizational Units, Users, and Groups](./documentation/ou-users-groups.md)
-- [File Shares Configuration](./documentation/file-shares.md)
-- [Group Policy Objects (GPO) for Drive Mapping](./documentation/gpo-drive-mapping.md)
-- [Domain Join and Client Configuration](./documentation/domain-join-client.md)
-
----
-
-## Overview
-
-This project is designed to showcase real-world AD DS and Azure infrastructure skills commonly expected in enterprise IT roles. The documentation covers manual step-by-step implementation and lays groundwork for future automation using PowerShell or Terraform.
-
----
-
-*Note:* Replace all screenshot placeholders with your actual screenshots.
-
----
-
+Created by Mitch as part of a hands-on IT helpdesk training project.
