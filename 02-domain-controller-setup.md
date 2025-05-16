@@ -19,12 +19,21 @@ This section describes promoting `DC01` to a domain controller and configuring t
 ## 🚀 Implementation Steps
 ### 1. Install AD DS Role on DC01
 - Open Server Manager > Add Roles and Features > Select AD DS
+- ![ADDS Installation](./screenshots/02-domain-controller/active-directory/Step-01.png)
+- ![ADDS Installation](./screenshots/02-domain-controller/active-directory/Step-02.png)
+- ![ADDS Installation](./screenshots/02-domain-controller/active-directory/Step-03.png)
+- ![ADDS Installation](./screenshots/02-domain-controller/active-directory/Step-04.png)
+- ![ADDS Installation](./screenshots/02-domain-controller/active-directory/Step-05.png)
+- ![ADDS Installation](./screenshots/02-domain-controller/active-directory/Step-06.png)
+- ![ADDS Installation](./screenshots/02-domain-controller/active-directory/Step-07.png)
+
 
 ### 2. Promote DC01 to Domain Controller
 - After installation, click "Promote this server to a domain controller"
 - Select "Add a new forest": `lognpacific.local`
 - Set DSRM password
 - Accept defaults, review, and complete installation
+
 
 ### 3. Set Static IP and DNS
 - Set private IP of DC01 to static (from Azure networking settings)
