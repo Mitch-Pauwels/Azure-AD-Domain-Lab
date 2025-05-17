@@ -75,3 +75,5 @@ Configuration
 DNS - Client01
 -
 ![Static IP and DNS](./screenshots/02-domain-controller/dc-static-ip/Step-25.png)
+
+## [Continue to 3. Organizational Units, Users & Groups](./03-active-directory-structure.md)

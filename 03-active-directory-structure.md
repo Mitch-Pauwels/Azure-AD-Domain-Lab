@@ -50,3 +50,5 @@ Create the following OU structure:
 - Groups were moved under the `Groups` OU.
 
 ![OU Structure](./screenshots/OU%20&%20Group%20Structure/Step-05.png)
+
+## [Continue to 4. File Shares & NTFS Permissions](./04-file-shares.md)

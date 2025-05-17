@@ -65,3 +65,5 @@ This section outlines how to use Group Policy to map the `EngineeringShare` netw
 
 > ![Linked GPO](./screenshots/Linked-GPO.png)  
 > *GPO linked to the Engineering OU*
+
+## [Continue to 6. Client Domain Join & RDP Configuration](./06-client-setup.md)

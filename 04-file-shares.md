@@ -62,3 +62,5 @@ This section covers the creation and configuration of network file shares on the
 
 > ![Access-Based Enumeration](./screenshots/ABE.png)  
 > *Access-Based Enumeration settings*
+
+## [Continue to 5. Group Policy Drive Mapping](./05-group-policy.md)

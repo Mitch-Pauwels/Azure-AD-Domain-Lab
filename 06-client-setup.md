@@ -63,3 +63,5 @@ This section documents how to join a Windows 10 client machine to the Active Dir
 
 > ![RDP Group](./screenshots/Remote-Desktop-Users.png)  
 > *Adding domain users to Remote Desktop Users group*
+
+## [Continue to 7. Summary](./07-summary.md)
