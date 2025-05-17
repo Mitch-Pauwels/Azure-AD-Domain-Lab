@@ -30,12 +30,12 @@ This project demonstrates how to build a fully functional, real-world Active Dir
 
 ---
 
-## 💡 Lessons Learned
+## 💡 Important notes
 
-- 🛑 **Don’t forget to link GPOs to all relevant OUs** — group membership alone isn’t enough.
-- ⚠️ **NTFS and Share permissions are cumulative** — both need to allow access.
-- 🧪 **Test with multiple user types** to simulate real company structure and permissions.
-- 🔐 **RDP access must be explicitly granted** — not all domain users should have it.
+- **Don’t forget to link GPOs to all relevant OUs** — group membership alone isn’t enough.
+- **NTFS and Share permissions are cumulative** — both need to allow access.
+- **Test with multiple user types** to simulate real company structure and permissions.
+- **RDP access must be explicitly granted** — not all domain users should have it.
 
 ---
 
@@ -57,16 +57,16 @@ This project demonstrates how to build a fully functional, real-world Active Dir
 
 ---
 
-## 📎 Next Steps (Suggestions)
+## 📎 Next Steps (Future Updates)
 
-- 🔄 Automate this deployment using **Terraform** or **ARM templates**
-- ☁️ Integrate with **Azure AD Connect** for hybrid identity
-- 🔐 Implement **PKI/Certificates** for secure authentication and encryption
-- 🧰 Add real helpdesk scenarios (e.g., password reset scripts, GPO lockdowns, etc.)
+- Automate this deployment using **Terraform** or **ARM templates**
+- Integrate with **Azure AD Connect** for hybrid identity
+- Implement **PKI/Certificates** for secure authentication and encryption
+- Add real helpdesk scenarios (e.g., password reset scripts, GPO lockdowns, etc.)
 
 ---
 
 ## 🙌 Thanks for Reading
 
-If you found this helpful or want to collaborate, feel free to [reach out](mailto:your@email.com) or fork this repo and expand it further!
+
 

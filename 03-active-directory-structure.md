@@ -17,7 +17,7 @@ In this section, we configure the logical structure of our Active Directory (AD)
 
 ## 📂 Structure Overview
 
-We created the following OU structure:
+Create the following OU structure:
 
 > ![OU Structure](./screenshots/OU%20&%20Group%20Structure/OU%20Structure.png)  
 > *Organizational Unit layout in Active Directory*
